@@ -1,0 +1,30 @@
+
+#Linette{
+    background-color: wheat;
+}
+#subbe{
+    background-color: wheat;
+}
+
+.hoved {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    display: grid;
+}
+#mm{
+    text-align: center;
+    border: 2px solid black;
+    border-width: 3px;
+    height: 200px;
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: wheat;
+
+}
+body{
+    background-color: navy;
+    font-family: Arial, Helvetica, sans-serif;
+
+}

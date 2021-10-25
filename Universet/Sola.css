@@ -1,0 +1,13 @@
+
+body {
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#sola {
+    margin: 200px;
+    width:60% ;
+    padding:40px ;
+    background-color: teal;
+    border: 3px dashed;
+}
