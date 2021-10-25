@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>
+            Vårt solsystem
+        </title>
+        <link rel="stylesheet" href="Solsystemet.css">
+
+    </head>
+    <body style="background-color: black;">
+
+        <style>
+            div{
+                text-align: center;
+                border-width: 10px;
+            }
+            #pil{
+                color: white;
+            }
+            #pil1{
+                color: white;
+            }
+        </style>
+        <div id="pil">
+            <p>Sola &#8595</p>
+        </div>
+        <div id="pil1">
+            <p>Merkur &#8595</p>
+        </div>
+        
+
+        <div> 
+            <form>
+                <input type="button" value="Tilbake" onclick="history.go(-1)">
+            </form>
+        </div>
+
+
+        <area coords="value">
+        <div>
+            <h1 style="color: white;"> Her har du solsystemet vårt</h1>
+
+            
+        <map name="solsystemet" id="solsystemet">
+            <area shape="circle" id="Sola" coords="100, 550, 40" href="Sola.html"/>
+            <area shape="circle" id="Merkur" coords="400, 480, 40" href="Merkur.html"/>
+
+            <!-- Fortsett her Morten-->
+        
+
+        </map>
+        <figure>
+            <img usemap="#solsystemet" src="solarsys.jpeg" id="solsystemet" width="100%" height="100%" alt="Solsystemet"/>
+        </figure>
+        <style>
+            area{
+                outline-color:white;
+            }
+        </style>
+    </body>
+
+
+
+</html>
